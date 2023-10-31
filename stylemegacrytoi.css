@@ -1,0 +1,95 @@
+html{
+    font-family: Playfair Display !important;
+}
+
+
+.titlebox{
+    background-color: rgb(255, 255, 255);
+    padding: 27px 0;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.titlebox-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img{
+    object-fit: contain;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    align-items: center;
+}
+
+.elem{
+    color: #000;
+   
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+a{
+    color:#000
+}
+.gradientbox{
+    background: linear-gradient(97deg, rgba(82, 0, 255, 0.32) -54.22%, #FE5000 104.39%);
+    padding: 84px 0px 52px;
+}
+
+.elem2{
+    color: var(--white, #FFF);
+    
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.elem3{
+    color: var(--white, #FFF);
+    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 20px 0 0 0;
+}
+
+.zayavkabutton{
+    display: block;
+    width: 285px;
+    background: var(--white, #FFF);
+    text-align: center;
+    color: #000;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+    padding: 22px 66px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctrelochki{
+    color: var(--white, #FFF);
+    font-family: Consolas;
+    font-size: 320px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; 
+    letter-spacing: -32px;
+}
